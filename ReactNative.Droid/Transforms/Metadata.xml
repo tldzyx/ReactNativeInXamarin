@@ -1,0 +1,60 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node path="/api/package[@name='com.facebook.react.animated']/class[@name='DecayAnimation']" />
+
+  <remove-node path="/api/package[@name='com.facebook.react.flat']/class[@name='RCTTextInput']" />
+  
+  <remove-node path="/api/package[@name='com.facebook.react.modules.network']/class[@name='ForwardingCookieHandler']/method[@name='get']" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.network']/class[@name='ForwardingCookieHandler']/method[@name='put']" />
+  
+  <remove-node path="/api/package[@name='com.facebook.react.views.textinput']/class[@name='ReactEditText.InternalKeyListener']" />
+  
+  <attr path="/api/package[@name='com.facebook.react.bridge']/class[@name='GuardedAsyncTask']/method[@name='doInBackground']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.facebook.react.bridge']/class[@name='GuardedAsyncTask']/method[@name='doInBackground']" name="visibility">protected override</attr>
+
+  <attr path="/api/package[@name='com.facebook.react.bridge']/class[@name='JavaOnlyArray']/method[@name='getArray']" name="managedReturn">Com.Facebook.React.Bridge.IReadableArray</attr>
+  <attr path="/api/package[@name='com.facebook.react.bridge']/class[@name='JavaOnlyArray']/method[@name='getMap']" name="managedReturn">Com.Facebook.React.Bridge.IReadableMap</attr>
+  <attr path="/api/package[@name='com.facebook.react.bridge']/class[@name='JavaOnlyMap']/method[@name='getArray']" name="managedReturn">Com.Facebook.React.Bridge.IReadableArray</attr>
+  <attr path="/api/package[@name='com.facebook.react.bridge']/class[@name='JavaOnlyMap']/method[@name='getMap']" name="managedReturn">Com.Facebook.React.Bridge.IReadableMap</attr>
+
+  <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewManager']/method[@name='updateExtraData']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewManager']/method[@name='updateExtraData']" name="managedName">UpdateExtraData_ViewManager</attr>
+  <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='SimpleViewManager']/method[@name='updateExtraData']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='SimpleViewManager']/method[@name='updateExtraData']" name="managedName">UpdateExtraData_ViewManager</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='updateExtraData']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='updateExtraData']" name="managedName">UpdateExtraData_ViewManager</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='updateExtraData']/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='updateExtraData']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='updateExtraData']" name="managedName">UpdateExtraData_ViewManager</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='updateExtraData']/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+
+  <!--<attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewManager']/method[@name='createShadowNodeInstance']"  name="visibility">protected</attr>-->
+  <!--<attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewManager']/method[@name='createShadowNodeInstance']"  name="managedName">CreateShadowNodeInstance_ViewManager</attr>-->
+  <!--<attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='SimpleViewManager']/method[@name='createShadowNodeInstance']"  name="visibility">protected</attr>-->
+  <!--<attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='SimpleViewManager']/method[@name='createShadowNodeInstance']"  name="managedName">CreateShadowNodeInstance_ViewManager</attr>-->
+  <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='SimpleViewManager']/method[@name='createShadowNodeInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='createShadowNodeInstance']"  name="visibility">protected</attr>-->
+  <!--<attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='createShadowNodeInstance']"  name="managedName">CreateShadowNodeInstance_ViewManager</attr>-->
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='createShadowNodeInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='createShadowNodeInstance']"  name="visibility">protected</attr>-->
+  <!--<attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='createShadowNodeInstance']"  name="managedName">CreateShadowNodeInstance_ViewManager</attr>-->
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='createShadowNodeInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <!--<attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewGroupManager']/method[@name='createShadowNodeInstance'"  name="visibility">protected</attr>-->
+  <!--<attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewGroupManager']/method[@name='createShadowNodeInstance'"  name="managedName">CreateShadowNodeInstance_ViewManager</attr>-->
+  <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewGroupManager']/method[@name='createShadowNodeInstance'" name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTRenderableViewManager']/method[@name='createViewInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.art']/class[@name='ARTSurfaceViewManager']/method[@name='createViewInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.picker']/class[@name='ReactDialogPickerManager']/method[@name='createViewInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.picker']/class[@name='ReactDropdownPickerManager']/method[@name='createViewInstance']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactHorizontalScrollViewManager']/method[@name='createViewInstance']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactHorizontalScrollViewManager']/method[@name='createViewInstance']" name="managedReturn">Java.Lang.Object</attr>
+
+</metadata>
